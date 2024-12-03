@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() 
 {
-    int var1;
-    int var2;
-    scanf("%d",&var1);
-    scanf("%d",&var2);
+    int var1,var2;
+    
+    scanf("%d,%d",&var1,var2);
+   
     if(var1 > var2) {
 	    printf("var 1 is greater than var 2");
 	    printf("\n%d",(var1-var2));
