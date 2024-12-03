@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main() 
 {
-    int var1,var2;
-    
-    scanf("%d,%d",&var1,var2);
-   
+    int var1 = 100;
+    int var2 = 10;
     if(var1 > var2) {
 	    printf("var 1 is greater than var 2");
-	    printf("\n%d",(var1-var2));
-    } else {
+    } 
+    if(var1 > var2) {
         printf("var 2 is greater than var 1");
-        printf("\n%d",(var2-var1));
     }
+
     return 0;
 }
+	
